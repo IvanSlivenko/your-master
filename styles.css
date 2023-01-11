@@ -2,6 +2,16 @@ body{
     background-color: gray;
     color: beige;
 }
+.total-box{
+    max-width: 100%;
+    max-height: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+
+}
 .img_box--Oun{
     display: flex;
     flex-direction: column;
