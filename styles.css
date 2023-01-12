@@ -126,8 +126,16 @@ border-radius: 5px;
     justify-content: center;
     flex-wrap: wrap;
 }
-.subject{
+.subjectAdmin{
     color: yellow;
+    font-size: 18px;
+}
+.subjectPerformer{
+    color: rgb(43, 226, 171);
+    font-size: 18px;
+}
+.subjectUser{
+    color: rgb(13, 200, 233);
     font-size: 18px;
 }
 .resurs{
