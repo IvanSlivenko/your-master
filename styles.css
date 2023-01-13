@@ -31,11 +31,26 @@ body{
     align-items: center;
     justify-content: center;
 
+padding-top: 15px;
+padding-bottom: 15px;
+
     width: 300px;
     background-color: blueviolet;
 
     border-radius: 5px;
 
+}
+.link-box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* width: 150px; */
+    width: 40%;
+    margin-top: 15px;
+    padding-left: 48%;
+    /* padding-top: 5px; */
+    padding-bottom: 15px;
+    /* border: 1px solid white; */
 }
 .img-Oun{
     width: 300px;
@@ -47,11 +62,16 @@ border-radius: 5px;
 }
 .mater-link--three{
 margin: 5px;
-padding: 5px;
+/* padding: 5px; */
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 40px;
+padding-right: 40px;
 
 font-size: 14px;
 font-family: sans-serif;
 text-transform: uppercase;
+letter-spacing: 1.5px;
 /* background-color:rgb(37, 120, 245); */
 background-color: blueviolet;
 opacity: 0.5;
@@ -62,8 +82,9 @@ border: 1px solid yellow;
 }
 .Master_link--Oun{
     /* text-decoration: none; */
+    padding-top: 5px;
     color:white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -71,10 +92,43 @@ border: 1px solid yellow;
 }
 
 .Master_link--Two{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
+    padding: 10px;
+   margin-top: 5px;
     color:yellow;
     text-decoration: none;
+}
+.Master_link--Chree{
+    background-color: gray;    
+    
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+
+}
+.Master_link--five{
+    text-decoration: none;
+    color:yellow;
+    text-shadow: 1px black;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    font-style:italic;
+    text-transform: uppercase;
+
+
+}
+.link-info{
+    color:orange;
 }
 .master-title{
     
@@ -143,4 +197,7 @@ color:orange;
 font-size: 18px;
 
 
+}
+.link-info--list{
+    padding-bottom: 20px;
 }
